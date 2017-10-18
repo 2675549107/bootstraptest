@@ -1,0 +1,33 @@
+.container{width: 1200px;margin: 0 auto;padding:0;}
+/*关于我们*/
+.left-menu{float: left;width: 200px;margin-top: 30px;}
+.left-menu ul li{font-size: 16px;text-align: center;;}
+.left-menu ul{border: 1px solid #dcdcdc;border-top: 2px solid #777;margin-bottom:50px;list-style-type:none;}
+.left-menu ul li a{display: block;border-bottom: 1px solid #e0e0e0;height: 53px;line-height: 53px;color: #333;}
+.left-menu ul li.current a{background: #777;color: #fff;}
+.about-us-right{width: 927px;float: right;border: 1px solid #e0e0e0;margin-top: 30px;}
+.about-us-right h1{font-size: 18px;border-bottom: 4px solid #777;padding-bottom: 10px;}
+.about-us-right{padding: 24px 20px 15px 32px;margin-bottom: 80px;}
+.about-us-right .invest-safe h2{font-size: 18px;font-weight: bold;margin-bottom: 10px;}
+.about-us-right .invest-safe{margin-top: 20px;}
+.about-us-right .invest-safe p{font-size: 14px;line-height: 24px;}
+.invest-safe-con{margin-bottom: 36px;}
+.news-guide ul li a{font-size: 14px;color: #333;height: 40px;line-height: 40px;display: inline-block;width: 800px;}
+.news-guide ul li span{float: right;height: 40px;line-height: 40px;display: inline-block;font-size: 14px;}
+.news-guide{margin-top: 10px; min-height:450px!important; height:450px; height:auto}
+.news-guide ul li a:hover{color: #777;}
+.news-guide-detail p{font-size: 14px;}
+.news-guide-detail .news-info img{margin-top: 20px;}
+.news-info{margin-top: 16px;}
+.icon-return{width: 100%;text-align: center;margin-top: 50px;}
+.icon-return a{color: #333;font-size: 14px;}
+.process-img{text-align: center;margin: 34px 0 50px 0;}
+.trans-detail .trans-process ul li{float: left;margin-right: 21px;}
+.trans-detail .trans-process ul li a{font-size: 16px;color: #333;border: 1px solid #e0e0e0;border-radius: 3px;display: block;padding: 5px 10px;}
+.trans-detail .trans-process .rights{margin-top: 35px;}
+.trans-detail .trans-process ul li.selected a{background: #777;color: #fff;border: 1px solid #777;}
+.no-satisfy p{color: #b9b9b9;}
+.no-satisfy{text-align: center;border: 1px solid #e0e0e0;height: 151px;line-height: 151px;border-radius: 4px;margin: 40px 0;}
+/*关于我们*/
+
+

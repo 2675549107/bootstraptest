@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <style type="text/css">
+    body {
+        background-color: #eee;
+        text-align: center;
+    }
+
+    .form {
+        padding: 10px;
+        font-size: 16px;
+        max-width: 330px;
+        padding: 100px;
+        margin: 0 auto;
+    }
+
+    .checkbox {
+        margin: 10px;
+        font-weight: normal;
+    }
+
+    .name,
+    .password {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #a1a1a1;
+        border-radius: 5px;
+    }
+
+    .name {
+        margin-bottom: -1px;
+    }
+
+    .password {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        width: 165px;
+        padding: .7rem 1rem;
+        font-size: 1.25rem;
+        color: #fff;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        background-color: #007bff;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="register">
+        <form class="form">
+            <h2 class="h2">登录</h2>
+            <input type="text" id="name" class="name" placeholder="用户名" required autofocus>
+            <input type="password" id="password" class="password" placeholder="密码" required>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="button">登录</button>
+        </form>
+    </div>
+
+</html>

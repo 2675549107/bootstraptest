@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>理财精灵-我的账户</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/members.js.css">
+</head>
+<body>
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">理财精灵</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02"
+            aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">登录 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">注册</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+        </form>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav text-md-center nav-justified w-100">
+            <li class="nav-item active">
+                <a style="font-weight: bold;" class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight: bold;" class="nav-link" href="#">我要投资</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight: bold;" class="nav-link" href="#">我要融资</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight: bold;" class="nav-link" href="#">新手指南</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight: bold;" class="nav-link" href="#" aria-expanded="false">关于我们</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: red; font-weight: bold;" class="nav-link" href="#">我的账户</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 左侧菜单选项========================================= -->
+<div id="div_bg_big">
+    <div id="div_bg_left_upper" class="div_bg">
+        <div class="div_portrait">
+        </div>
+        <div class="div_user_info">
+            <ul>
+                账&nbsp&nbsp&nbsp&nbsp户：
+                <li id="li_user_name">wjl1075207820</li>
+                <br>
+                手&nbsp&nbsp&nbsp&nbsp机：
+                <li id="li_phone">13366666666</li>
+                <br>
+                邮&nbsp&nbsp&nbsp&nbsp箱：
+                <li id="li_email">1234567890@qq.com</li>
+                <br>
+                身份证：
+                <li id="li_id_card">未认证</li>
+                <br>
+                银行卡：
+                <li id="li_bank_card">未绑定</li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="div_bg_left_lower" class="div_bg">
+        <div class="account-list" id="_left">
+            <a href="Members.html" data-id="center"><i></i>个人中心</a>
+            <a href="user_investment.html" class="current" data-id="investment"><i></i>我的投资</a>
+            <a href="user_fund.html" data-id="fund"><i></i>我的资金</a>
+            <a href="user_bill.html" data-id="bill"><i></i>我的账单</a>
+            <a href="user_information.html" data-id="information"><i></i>站内消息</a>
+            <a href="user_setting.html" data-id="setting"><i></i>账户设置</a>
+        </div>
+    </div>
+    <section id="content">
+        <div id="div_bg_right" class="div_bg">
+
+            <div id="div_tab_big_bg" class="div_property">
+                <div class="div_property">
+                    <h3>投资总计</h3>
+                    <hr>
+                </div>
+                <div class="div_usable_detail_bg">
+                    <table id="tab_investment" class="tab">
+                        <tr>
+                            <td>回款中</td>
+                            <td>已结清</td>
+                            <td>累计投资</td>
+                            <td>投资笔数</td>
+                        </tr>
+                        <tr>
+                            <td>¥0.00</td>
+                            <td>¥0.00</td>
+                            <td>¥0.00</td>
+                            <td>¥0.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="div_detail">
+                    <h3 style="display: inline">投资明细</h3>
+                    <h5 style="display: inline;margin-left: 500px"><span style="color: orangered">>>更多</span></h5>
+                    <hr>
+                </div>
+                <div class="div_usable_detail_bg">
+                    <table id="tab_investment_2" class="tab">
+                        <tr id="head_investment" class="tr_investment">
+                            <th>名称</th>
+                            <th>来源</th>
+                            <th>时间</th>
+                            <th>金额</th>
+                            <th>年化收益率</th>
+                            <th>还款时间</th>
+                            <th>合同</th>
+                            <th>回款计划</th>
+                            <th>状态</th>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+                        <tr class="tr_zebra">
+                            <td>张三</td>
+                            <td>上海</td>
+                            <td>2017-10-18</td>
+                            <td>¥9999.88</td>
+                            <td>23.33%</td>
+                            <td>2020-10-18</td>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>进行中</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+</div>
+
+
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/members.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    color: #ff5d73;
+    background: #d0d0d0;
+}
+
+#div_bg_big {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    height: 1000px;
+}
+
+.div_bg {
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    border: gainsboro solid 1px;
+}
+
+#div_bg_left_upper {
+    width: 350px;
+    height: 400px;
+}
+
+#content {
+    margin-top: -750px;
+    margin-left: 350px;
+}
+
+#content,
+#div_bg_right {
+    position: absolute;
+    width: 850px;
+    height: 750px;
+}
+
+#div_bg_left_lower {
+    width: 350px;
+    height: 350px;
+}
+
+.div_portrait {
+    width: 100px;
+    height: 100px;
+    margin-left: 125px;
+    margin-top: 75px;
+    border-radius: 50px;
+    border: solid #d0d0d0 1px;
+    background: url("../images/members/portrait1.jpg");
+}
+
+.div_user_info > ul > li {
+    line-height: 30px;
+    display: inline;
+}
+
+.div_user_info {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.account-list {
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.account-list a.current {
+    background: #e8e8e8;
+    border-left: 5px solid #ff5d73;
+}
+
+.account-list a:hover {
+    background: #e8e8e8;
+    border-left: 5px solid #ff5d73;
+}
+
+.account-list a {
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+}
+
+#div_tab_big_bg {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    color: grey;
+}
+
+.div_property hr {
+    width: 690px;
+}
+
+.tab{
+    width: 690px;
+    line-height: 55px;
+    text-align: center;
+}
+
+
+
+.tr_zebra:nth-child(even){
+    line-height: 35px;
+    background-color: #e8e8e8;
+}
+
+.div_detail {
+    margin-top: 34px;
+}
+
+#tab_investment,
+#tab_property,
+#tab_fund,
+#tab_bill_1,
+#tab_bill_2{
+    background: #e8e8e8;
+}
+.tab th{
+    text-align: center;
+    line-height: 35px;
+    background: #ff5e74;
+    color: white;
+}
+#tab_setting {
+    text-align: left;
+}
