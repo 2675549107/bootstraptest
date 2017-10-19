@@ -1,14 +1,6 @@
-body {
-    color: #ff5d73;
-    background: #d0d0d0;
-}
+body {  color: #ff5d73;background: #d0d0d0;}
 
-#div_bg_big {
-    margin: 0 auto;
-    padding: 0;
-    width: 1200px;
-    height: 1000px;
-}
+#div_bg_big {margin: 0 auto;padding: 0;width: 1200px;height: 1000px;}
 
 .div_bg {
     margin: 0;
