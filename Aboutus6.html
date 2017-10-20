@@ -1,14 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh">
 
 <head>
     <meta charset="UTF-8">
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About Us</title>
+    <title>关于我们-平台公告</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+    <Link href="css/common.css" rel="stylesheet">
+    <Link href="css/reset.css" rel="stylesheet">
     <body style="margin: 0;">
         <nav class="navbar navbar-expand navbar-dark bg-dark">
             <a class="navbar-brand" href="#">理财精灵</a>
@@ -18,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarsExample02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">登录 <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="login.html">登录 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">注册</a>
+                        <a class="nav-link" href="register.html">注册</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-md-0">
@@ -40,25 +41,66 @@
                         <a style="font-weight: bold;" class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a style="font-weight: bold;" class="nav-link" href="inbestment.html">我要投资</a>
+                        <a style="font-weight: bold;" class="nav-link" href="investment.html">我要投资</a>
                     </li>
                     <li class="nav-item">
                         <a style="font-weight: bold;" class="nav-link" href="bailout.html">我要融资</a>
                     </li>
                     <li class="nav-item">
-                        <a style="font-weight: bold;" class="nav-link" href="members.html">我的信息</a>
+                        <a style="font-weight: bold;" class="nav-link" href="Members.html">我的信息</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: red; font-weight: bold;" class="nav-link" href="javascript:void(0)">新手指南</a>
+                        <a style="font-weight: bold;" class="nav-link" href="BeginnersGuide.html">新手指南</a>
                     </li>
                     <li class="nav-item">
-                        <a style="font-weight: bold;" class="nav-link" href="Aboutus.html" aria-expanded="false">关于我们</a>
+                        <a style="color: red;font-weight: bold;" class="nav-link" href="javascript:void(0)" aria-expanded="false">关于我们</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
-
+        <div class="container" style="min-width: 1200px">
+            <div class="left-menu">
+                <ul id="_Navigation">
+                    <li><a href="Aboutus.html">安全保障</a></li>
+                    <li><a href="Aboutus1.html">合规进程</a></li>
+                    <li><a href="Aboutus2.html">投资技巧</a></li>
+                    <li><a href="Aboutus3.html">法律政策</a></li>
+                    <li><a href="Aboutus4.html">常见问题</a></li>
+                    <li><a href="Aboutus5.html">合作单位</a></li>
+                    <li class="current"><a href="Aboutus6.html">平台公告</a></li>
+                    <li><a href="Aboutus7.html">小佳日记</a></li>
+                    <li><a href="Aboutus8.html">理财精灵</a></li>
+                </ul>
+            </div>
+            <div class="about-us-right">
+                <h1 id="_h1">平台公告</h1>
+                <div class="news-guide">
+                    <ul>
+                        <li style="">
+                            <a href="">关于提现功能优化公告</a><span>2017/09/30</span></li>
+                        <li style="">
+                            <a href="">2017年国庆、中秋节放假公告</a><span>2017/09/28</span></li>
+                        <li style="">
+                            <a href="">关于存管方系统维护通知</a><span>2017/09/22</span></li>
+                        <li style="">
+                            <a href="">关于存管上线活动公告</a><span>2017/09/13</span></li>
+                        <li style="">
+                            <a href="">关于存管上线投资功能优化说明</a><span>2017/09/06</span></li>
+                        <li style="">
+                            <a href="">关于存管系统正式上线公告</a><span>2017/08/31</span></li>
+                        <li style="">
+                            <a href="">银行存管第二阶段升级公告</a><span>2017/08/28</span></li>
+                        <li style="">
+                            <a href="">银行存管第一阶段数据迁移完成通知</a><span>2017/08/11</span></li>
+                        <li style="">
+                            <a href="">自动投资增加期限设置通知</a><span>2017/07/25</span></li>
+                        <li style="">
+                            <a href="">关于对闲置资金进行补贴的通知</a><span>2017/07/13</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
 
         <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
         <script src="https://code.jquery.com/jquery.js"></script>
@@ -67,23 +109,6 @@
         <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.bootcss.com/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	<!-- 只是让新手,一步一步完成登录注册功能,完成 新手推荐理财人物，可以获得丰厚奖励-->
-        <h2>新手指南</h2>
-	<!-- 没有注册，不能完成任务，因为权限不够，这里是引导，游客完成注册成为会员 -->
-        <p>第一步：注册</p>
-        <div style="height: 550px;background-image:url('images/BeginnersGuide/lalaOne.png');width:1050px; background-size: 1050px; margin:20px auto;"></div>
-	<!-- 注册成功后，就可以完成新手理财任务， -->
-        <p>第二步:完成新手任务，领取福利</p>
-        <div style="height: 565px;background-image:url('images/BeginnersGuide/lalaTow.png');width:1050px; background-size: 1050px; margin:20px auto;"></div>
-	<!-- 随时选取商品就可以收货预期回报 -->
-        <p>小算盘——收入做到心中有数</p>
-        <div style="height: 250px;background-image:url('images/BeginnersGuide/lalaThree.png');width:1050px; background-size: 1050px; margin:20px auto;"></div>
-	<!-- 回报率高，高于同类产品的回报率 -->
-        <p>第三步:可观的收益</p>
-        <div style="height: 324px;background-image:url('images/BeginnersGuide/lalaFour.png');width:1050px; background-size: 1050px; margin:20px auto;"></div>
-	<!-- 平台是一个有效的保护地方，银行级别风控，信息公开化，电子合同保障，有抵押更加放心 -->
-        <p>第四步:平台的优势</p>
-        <div style="height: 690px;background-image:url('images/BeginnersGuide/lalaFive.png');width:1050px; background-size: 1050px; margin:20px auto;"></div>
     </body>
 
 </html>
