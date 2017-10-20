@@ -11,22 +11,14 @@
     }
 
     .password,
-    .idName,
+    .phone,
     .name,
     .repeatPassword,
     .email,
-    .profession,
-    .hobby {
+    .profession {
         width: 300px;
         margin: 5px;
         padding: 10px 0;
-    }
-
-    .gender {
-        position: relative;
-        right: 115px;
-        margin: 5px 0;
-        margin-left: 10px;
     }
 
     .button {
@@ -98,44 +90,33 @@
                 <br>
             </div>
             <div>
+                电子邮箱：
+                <input type="email" class="email" name="email" placeholder="请输入您的邮箱！" required="" >
+                <br>
+            </div>
+            <div>
+                电&emsp;&emsp;话：
+                <input type="tel" class="phone" name="phone" placeholder="请输入您的电话！" required="" pattern="[0-9]{11}">
+                <br>
+            </div>
+            <div>
                 登录密码：
                 <input type="password" class="password" id="password" placeholder="请输入您的密码！" required="" pattern="[0-9]{6,20}">
                 <br>
             </div>
             <div>
                 重复密码：
-                <input type="password" class="repeatPassword" id="repeatPassword" placeholder="请再次输入您的密码！" required="" pattern="[0-9]{6,20}">
+                <input type="password" class="repeatPassword" id="repeatPassword" placeholder="请重新输入您的密码！" required="" pattern="[0-9]{6,20}">
                 <br>
             </div>
             <div>
-                电子邮箱：
-                <input type="email" class="email" name="email" placeholder="请输入您的邮箱！" required="" >
-                <br>
-            </div>
-            <div class="gender">
-                性&emsp;&emsp;别：
-                <input type="radio" name="gender" checked="checked" value="男">男&emsp;
-                <input type="radio" name="gender" value="女">女
-                <br>
-            </div>
-            <div>
-                职&emsp;&emsp;业：
+                用&emsp;户&emsp;组：
                 <select class="profession" required="">
                     <option value="">请选择</option>
-                    <option value="">学生</option>
-                    <option value="">老师</option>
-                    <option value="">管理员</option>
-                </select>
-                <br>
-            </div>
-            <div>
-                爱&emsp;&emsp;好：
-                <select class="hobby" required="">
-                    <option value="">请选择</option>
-                    <option value="">书法</option>
-                    <option value="">乐器</option>
-                    <option value="">运动</option>
-                    <option value="">编程</option>
+                    <option value="">一组</option>
+                    <option value="">二组</option>
+                    <option value="">三组</option>
+                    <option value="">四组</option>
                 </select>
                 <br>
             </div>
