@@ -3,12 +3,13 @@ body {
     background: #d0d0d0;
 }
 
-#div_bg_big {
+article {
     margin: 0 auto;
     padding: 0;
     width: 1200px;
-    background: red;
+    background: #66ccff;
 }
+
 
 .div_bg {
     margin: 0;

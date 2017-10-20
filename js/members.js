@@ -2,10 +2,18 @@
  * Created by wjl on 2017/10/18.
  */
 
+// 内容区域自适应屏幕
 $(function () {
     var width = $(window).width();
     var height = $(window).height();
-    $("#div_bg_big").css("height", height - 125 + "px");
+    $("article").css("height", height - 125 + "px");
+});
+
+// 窗口缩放时，内容区域自适应屏幕
+$(window).resize(function () {
+    var width = $(window).width();
+    var height = $(window).height();
+    $("article").css("height", height - 125 + "px");
 });
 
 $(function () {
