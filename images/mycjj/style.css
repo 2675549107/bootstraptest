@@ -179,3 +179,168 @@ ul.pxs_thumbnails li.selected img{
 	left:50%;
 	margin-left:-90px; padding-left:50px; padding-right:15px; padding-top:15px; padding-bottom:15px
 }
+
+//登录
+/* div公用样式设置 */
+div {
+	text-align: center; /* 文字居中对齐 */
+	line-height: 50px;
+}
+/* 字体样式设置 */
+@font-face {
+	font-family: myFont;
+	src:url('../fonts/华文楷体.ttf');
+	font-weight: bolder;
+}
+/* 图片 */
+.img1 {
+	width: 100px;
+	height: 83px;
+	position: absolute;
+	top: 2px;
+	left: 1px;
+}
+/* 主标题 */
+.title {
+	margin:0;
+	padding:0;
+	font-family: myFont;
+	color: white;
+	position: absolute;
+	top: 23px;
+	left: 120px;
+}
+/* 退出 */
+.exit {
+	float: right;
+	margin-right: 20px;
+	font-family: myFont;
+	color: white;
+	font-size: 17px;
+}
+/* 帮助 */
+.help {
+	float: right;
+	margin-right: 15px;
+	font-family: myFont;
+	color: white;
+	font-size: 17px;
+}
+/* 设置鼠标悬停的样式 */
+#query,#add,.exit,.help {
+	cursor: pointer;
+}
+/* 用户名称 */
+.users {
+	min-width: 305px;
+	position: absolute;
+	left: 10px;
+}
+/* 查询文本框 */
+.queryText {
+	max-width: 125px;
+	height: 20px;
+	margin-left: 10px
+}
+/* 查询按钮 */
+.queryButton {
+	width:79px;
+	height: 28px;
+	margin-left: 10px;
+}
+/* usertable表单 */
+.userTable {
+	min-width: 800px;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	right: 10px;
+}
+tr {
+	line-height: 40px;
+	text-align: left;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.pngLeft {
+	width: 100%;
+	height: 22%;
+	position: absolute;
+	bottom: 40px;
+}
+/* 用户信息对齐方式 */
+.main-left {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+}
+/* span输入框 */
+.textAll {
+	text-align: left;
+	min-width: 50%;
+	width: 50%;
+	margin-left: 30px;
+}
+/* 相同的input属性 */
+.inputAll {
+	width: 400px;
+	height: 25px;
+}
+/* main的底部样式 */
+.main-bottom {
+	width: 265px;
+	height: 90px;
+	margin-left: 370px;
+	padding: 0;
+	margin-top: 0;
+}
+#save,#reset,#return {
+	width: 70px;
+	height: 27px;
+	color: white;
+}
+#save {
+	background-color: #56B85A;
+	margin: 0px;
+	margin-right: 10px;
+}
+#reset {
+	background-color: #0595C1;
+	margin: 0px;
+	margin-right: 10px;
+}
+#return {
+	margin: 0px;
+	background-color: #C7C7C7;
+}
+.styleHr {
+	margin:0px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.main-right {
+	width: 344px;
+	height: 300px;
+	position: absolute;
+	top: 54px;
+	left: 521px;
+}
+.imgAvatar {
+	margin-left: -90px;
+	border-radius: 1em;
+	width: 50%;
+}
+.upLoad {
+	display: block;
+	margin-left: 44px;
+	width: 193px;
+	height: 20px;
+	font-size: 12px;
+	border-radius: 0.5em;
+	background-color: white;
+	border-width: 2px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
