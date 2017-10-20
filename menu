@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>关于我们</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <Link href="css/common.css" rel="stylesheet">
+    <Link href="css/reset.css" rel="stylesheet">
+    <body style="margin: 0;">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">理财精灵</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="login.html">登录 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">注册</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                </form>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav text-md-center nav-justified w-100">
+                    <li class="nav-item active">
+                        <a style="font-weight: bold;" class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;" class="nav-link" href="investment.html">我要投资</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;" class="nav-link" href="bailout.html">我要融资</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;" class="nav-link" href="members.html">我的信息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;" class="nav-link" href="BeginnersGuide.html">新手指南</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: red;font-weight: bold;" class="nav-link" href="javascript:void(0)" aria-expanded="false">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="min-width: 1200px">
+            <div class="left-menu">
+                <ul id="_Navigation">
+                    <li class="current"><a href="Aboutus.html">安全保障</a></li>
+                    <li><a href="Aboutus1.html">合规进程</a></li>
+                    <li><a href="Aboutus2.html">投资技巧</a></li>
+                    <li><a href="Aboutus3.html">法律政策</a></li>
+                    <li><a href="Aboutus4.html">常见问题</a></li>
+                    <li><a href="Aboutus5.html">合作单位</a></li>
+                    <li><a href="Aboutus6.html">平台公告</a></li>
+                    <li><a href="Aboutus7.html">小佳日记</a></li>
+                    <li><a href="Aboutus8.html">理财精灵</a></li>
+                </ul>
+            </div>
+            <div class="about-us-right">
+                <h1 id="_h1">安全保障</h1>
+                <div class="news-guide">
+                    <ul>
+                        <style type="text/css">
+                            .safe_01 .safe_left{ width: 405px; float: left; padding-right: 63px;}
+                            .safe_01 .safe_right{ float: left; }
+                            .safe_01{ margin-top: 46px; clear: both; display: inline-block;}
+                            .safe_01 h3{ border-left: 7px solid #e05e60; color: #676666; font-size: 16px; margin-bottom: 48px;}
+                            .safe_01 p{ line-height: 34px; margin-bottom: 20px;}
+                            .safe_02 img{ margin-left: 70px;}
+                            .safe_03_col{ width: 224px; overflow: hidden; padding-top: 40px; float: left;}
+                            .safe_03_img2 img{ width: 119px; margin: 0 auto; display:block; margin-bottom: 42px;}
+                            .safe_03_img1 img{ width: 91px; margin: 0 auto; display:block; margin-bottom: 42px; margin-top: 16px;}
+                            .safe_03_img3 img{ width: 139px; margin-left:60px;display:block; margin-bottom: 42px; margin-top: 18px;}
+                            .safe_03_col dd{ line-height: 34px;}
+                            .safe_03_col span{ width: 6px; height: 6px; background: #314f5a; display:inline-block; float:left; margin: 12px 3px 60px;}
+                            .safe_03_img2{ margin: 0 57px;}
+                        </style>
+                        <div class="safe_01">
+                            <h3>
+                                业务模式——拥有健康的基因
+                            </h3>
+                            <div class="safe_left">
+                                <p>
+                                    我们是来自互联网和金融领域的专业团队，内行人练硬功，更深知平台系统要能抗攻击，金融产品要能抗风险的道理。
+                                </p>
+                                <p>
+                                    我们坚持在银监会的监管要求和管理指导下，严格自律，合规运营。从业务模式上杜绝自设资金池的风险隐患，从制度、流程、系统等方面降低投资者的投资风险。
+                                </p>
+                            </div>
+                            <div class="safe_right">
+                                <img src="http://img.pd100.com//Content/UpLoad/Article/2015-04-27/edc80b45fd314c1991e1bb11f008dce9.png">
+                            </div>
+                        </div>
+                        <div class="safe_01 safe_02 ">
+                            <h3>
+                                多层审核——降低投资风险
+                            </h3>
+                            <img src="http://img.pd100.com//Content/UpLoad/Article/2015-04-27/f82424830f85407491f293ef4cff7b14.png">
+                        </div>
+                        <div class="safe_01 safe_03 ">
+                            <h3>
+                                风控机制——合作机构提供
+                            </h3>
+                            <div class="safe_03_col safe_03_img1">
+                                <dl>
+                                    <dt>
+                                        <img src="http://img.pd100.com/Content/UpLoad/Article/2016-10-14/544pwvlk.psi.png" alt="" style="text-align:center;">
+                                    </dt>
+                                    <dd>
+                                        <span></span>
+                                        <p>
+                                            平台居间介绍的借款由合作公司出具保函提供资金安全保障。<br>
+                                        </p><div>
+                                        <br>
+                                    </div>
+                                        <p></p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="safe_03_col safe_03_img2">
+                                <dl>
+                                    <dt>
+                                        <img src="http://img.pd100.com//Content/UpLoad/Article/2015-04-27/4ffc036fc2a74c128d5a716c17ac4657.png">
+                                    </dt>
+                                    <dd>
+                                        <span></span>
+                                        <p>
+                                            平台居间介绍的房产抵押类借款，均由合作小贷公司通过风险承接贷款提供资金安全保障。
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="safe_03_col safe_03_img3">
+                                <dl>
+                                    <dt>
+                                        <img src="http://img.pd100.com//Content/UpLoad/Article/2015-04-27/16f3785418a34551839215dc29b33bc4.png">
+                                    </dt>
+                                    <dd>
+                                        <span></span>
+                                        <p>
+                                            平台居间介绍的黄金珠宝质押借款，均由合作典当公司通过风险承接借款提供资金安全保障。
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <input id="typename" name="typename" type="hidden" value="安全保障">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.bootcss.com/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+
+</html>
