@@ -94,10 +94,15 @@ ol li .send { margin:16px 0 0 0;}
 #formsearch input.editbox_search { margin:0; padding:11px 6px 10px; float:left; width:181px; border:none; background:none; font:normal 12px/1.5em Arial, Helvetica, sans-serif; color:#a8acb2;}
 #formsearch input.button_search { margin:6px 0 0 0; padding:0; border:none; float:left;}
 
+/* classify */
+.classify { width: 900px; margin: 30px auto;}
+.classify ul { list-style:none; repeat-x :center top;}
+.classify ul li {float:left;}
+.classify ul li a { padding:10px; color:#919090; font-size:20px;}
+.classify ul li.active a, .classify ul li a:hover { color:#fff; background:#66C3E9;}
 
-.invest { width: 985px;	margin: 0 auto;}
-.itab ul li a.selected{ height:37px; display:block; background:url(../images/itabbg1.png) repeat-x; font-weight:bold;}
-/*imglist*/
+/*invest*/
+.invest { width: 985px;	margin: 80px auto 0;}
 .imglist{clear:both; overflow:hidden; margin-bottom:20px; margin-left:5px;}
 .imglist li{width:188px; border:solid 1px #fff;height:199px;float:left; margin-right:8px; margin-bottom:10px; cursor:pointer;}
 .imglist li:hover{border:solid 1px #d7e4ea;}
