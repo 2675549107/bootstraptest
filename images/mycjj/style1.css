@@ -93,3 +93,21 @@ ol li .send { margin:16px 0 0 0;}
 #formsearch span { display:block; margin:6px 0; padding:0; float:left; background:#fff url(images/search.gif) no-repeat top left;}
 #formsearch input.editbox_search { margin:0; padding:11px 6px 10px; float:left; width:181px; border:none; background:none; font:normal 12px/1.5em Arial, Helvetica, sans-serif; color:#a8acb2;}
 #formsearch input.button_search { margin:6px 0 0 0; padding:0; border:none; float:left;}
+
+/* classify */
+.classify { width: 900px; margin: 30px auto;}
+.classify ul { list-style:none; repeat-x :center top;}
+.classify ul li {float:left;}
+.classify ul li a { padding:10px; color:#919090; font-size:20px;}
+.classify ul li.active a, .classify ul li a:hover { color:#fff; background:#66C3E9;}
+
+/*invest*/
+.invest { width: 985px;	margin: 80px auto 0;}
+.imglist{clear:both; overflow:hidden; margin-bottom:20px; margin-left:5px;}
+.imglist li{width:188px; border:solid 1px #fff;height:199px;float:left; margin-right:8px; margin-bottom:10px; cursor:pointer;}
+.imglist li:hover{border:solid 1px #d7e4ea;}
+.imglist li span{width:168px; height:126px; margin:8px;}
+.imglist li h2{text-align:center; line-height:10px; font-size: 15px;}
+.imglist li p{text-align:center; line-height:10px; background:url(../images/line1.png) center center no-repeat;}
+.imglist li p a{color:#1f7cb6;}
+.imglist li p a:hover{color:#F60;}
