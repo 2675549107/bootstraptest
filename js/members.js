@@ -10,7 +10,6 @@ $(function () {
     $("article").css("height", height - 125 + "px");
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
-    $(".tab_account-detail-list").css("height", height - 405 + "px");
 });
 
 // 窗口缩放时,布局自适应窗口高度
@@ -20,7 +19,6 @@ $(window).resize(function () {
     $("article").css("height", height - 125 + "px");
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
-    $(".tab_account-detail-list").css("height", height - 405 + "px");
 });
 
 // 局部刷新

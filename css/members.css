@@ -9,26 +9,21 @@ article {
     margin: 0 auto;
     padding: 0;
     width: 1200px;
+    border: #e0e0e0 solid 1px;
 }
-
-
 
 #div_article-bg-left-upper,
 #div_article-bg-left-under,
 #div_article-bg-right {
     background: #f8f9fa;
-    border: #e0e0e0 solid 1px;
-}
 
-.div_content {
-    width: 900px;
-    height: 560px;
 }
 
 #div_article-bg-left-upper {
     float: left;
     width: 300px;
     height: 200px;
+    border-top: 0;
     border-bottom: 0;
 }
 
@@ -39,13 +34,10 @@ article {
 
 #div_article-bg-right {
     float: right;
-    width: 900px;
-    border-left: 0;
+    width: 898px;
+    border-left: #e0e0e0 solid 1px;
 }
 
-.div_user_info_bg {
-    border: solid 5px #66ccff;
-}
 
 .img_portrait {
     width: 80px;
@@ -95,48 +87,74 @@ article {
     border-left: 5px solid #ff5d73;
 }
 
-#tab_account-collect-list {
+#div_article-bg-right h3 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.tab_account-collect-list {
     margin: 0 50px;
     width: 800px;
     height: 105px;
     background: #e8e8e8;
 }
 
-#section_article-bg-right h3 {
-    margin-left: 50px;
-    text-align: left;
-}
-
-#tab_account-collect-list td {
+.tab_account-collect-list td {
     text-align: center;
 }
 
-#tab_account-collect-list td.item {
+.tab_account-collect-list td.item {
     font-size: 20px;
 }
 
-#tab_account-collect-list td.sum {
+.tab_account-collect-list td.sum {
     font-size: 18px;
     color: #ff5d73;
 }
 
-#tab_account-collect-list td.balance {
+.tab_account-collect-list td.balance {
     color: #ff5d73;
 }
 
-#tab_account-collect-list button {
+.tab_account-collect-list button {
     width: 60px;
-    outline:none;
+    outline: none;
     border: 1px solid #ff5d73;
     border-radius: 30px;
     background: #e8e8e8;
 }
 
-#tab_account-collect-list button:hover {
+.tab_account-collect-list button:hover {
     background: #ff5d73;
 }
 
 .tab_account-detail-list {
-    width: 900px;
+    width: 800px;
     background: #f8f9fa;
+}
+
+.tab_account-detail-list {
+    margin: 0 50px;
+}
+
+.tab_account-detail-list th {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    background: #ff5e74;
+    font-weight: 400;
+}
+
+.tab_account-detail-list td {
+    text-align: center;
+    font-size: 17px;
+}
+
+.tab_account-detail-list th.textLeftColumn,
+.tab_account-detail-list td.textLeftColumn {
+    text-align: left;
+}
+
+.tab_account-detail-list tr:nth-child(even) {
+    background: #e8e8e8;
 }
