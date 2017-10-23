@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
+    <title>理财精灵——我的账户</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -26,15 +26,15 @@
 
 <!-- 刷新内容区域 -->
 <div id="div_article-bg-right" class="div_content">
-    <h3 style="text-align: left">投资总计</h3>
+    <h3>投资总计</h3>
     <hr>
-    <table id="tab_account-collect-list">
+    <table class="tab_account-collect-list">
         <tr>
-            <td class="item">总投资金额</td>
-            <td class="item">总收益金额</td>
-            <td class="item">待收本金</td>
-            <td class="item">代收利息</td>
-            <td class="item">代收利息</td>
+            <td class="item">总融资金额</td>
+            <td class="item">月融资金额</td>
+            <td class="item">待还资金</td>
+            <td class="item">本月到期</td>
+            <td class="item">融资笔数</td>
 
         </tr>
         <tr>
@@ -42,7 +42,7 @@
             <td class="sum">¥0.00</td>
             <td class="sum">¥0.00</td>
             <td class="sum">¥0.00</td>
-            <td class="sum">¥0.00</td>
+            <td class="sum">0</td>
         </tr>
     </table>
 
@@ -56,17 +56,28 @@
     <table class="tab_account-detail-list">
         <tr>
             <th>操作时间</th>
-            <th>类别</th>
+            <th>来自</th>
             <th>金额</th>
             <th class="textLeftColumn">详情</th>
             <th class="textLeftColumn">回执单</th>
         </tr>
         <tr>
             <td>2017-10-18</td>
-            <td>充值</td>
+            <td>张三</td>
             <td>¥9999.88</td>
-            <td class="textLeftColumn">购买A+B混合基金</td>
+            <td class="textLeftColumn">泛娱乐X计划项目</td>
             <td class="textLeftColumn">20171018055130666666</td>
+        </tr>
+    </table>
+    <table class="tab_btn_list">
+        <tr>
+            <td colspan="9">
+                <button class="btn">首页</button>
+                <button class="btn">上一下</button>
+                <span class="btn" style="background: #dddddd; color: orangered">1</span>
+                <button class="btn">下一页</button>
+                <button class="btn">尾页</button>
+            </td>
         </tr>
     </table>
 </div>

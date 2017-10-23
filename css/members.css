@@ -147,9 +147,13 @@ article {
 
 .tab_account-detail-list td {
     text-align: center;
+    line-height: 30px;
     font-size: 17px;
 }
 
+.tab_account-detail-list tr.textLeftColumn td,
+.tab_account-detail-list th.textLeftColumn,
+.tab_account-detail-list td.textLeftColumn,
 .tab_account-detail-list th.textLeftColumn,
 .tab_account-detail-list td.textLeftColumn {
     text-align: left;
@@ -157,4 +161,34 @@ article {
 
 .tab_account-detail-list tr:nth-child(even) {
     background: #e8e8e8;
+}
+
+.tab_account-detail-list button.btn {
+    width: 80px;
+    margin-right: 0;
+}
+.tab_btn_list button {
+    width: 80px;
+}
+.tab_btn_list button,
+.tab_btn_list span {
+    margin-top: 10px;
+}
+
+.tab_btn_list button:hover {
+    background: #ff5e74;
+}
+.tab_account-detail-list td.thirdColumn {
+    width: 400px;
+    text-indent: 32px;
+    text-align: left;
+}
+
+.tab_account-detail-list img {
+    width: 16px;
+    height: 16px;
+}
+
+.tab_account-detail-list td.change:hover {
+    background: #ff5e74;
 }

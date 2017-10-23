@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
+    <title>理财精灵——我的账户</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -24,43 +24,65 @@
 </head>
 <body style="margin: 0;">
 
-<table class="tab_account-collect-list">
-    <tr>
-        <td class="item">充值余额</td>
-        <td class="item">提现金额</td>
-        <td class="item">充值余额</td>
-        <td class="item">充值余额</td>
-    </tr>
-    <tr>
-        <td class="sum">¥0.00</td>
-    </tr>
-</table>
 
 <div id="div_article-bg-right" class="div_content">
     <h3>充值/提现</h3>
     <hr>
-
-    <table id="tab_bill_1" class="tab">
+    <table class="tab_account-collect-list">
         <tr>
-            <td></td>
-            <td>充值次数</td>
-            <td>提现金额</td>
-            <td>提现次数</td>
-            <td>提现手续费</td>
+            <td class="item">账户余额</td>
+            <td class="item">充值次数</td>
+            <td class="item">提现金额</td>
+            <td class="item">提现次数</td>
+            <td class="item">提现手续费</td>
         </tr>
         <tr>
-            <td>¥0.00</td>
-            <td>0次</td>
-            <td>¥0.00</td>
-            <td>0次</td>
-            <td>¥0.00</td>
+            <td class="sum">¥0.00</td>
+            <td class="sum">0次</td>
+            <td class="sum">¥0.00</td>
+            <td class="sum">0次</td>
+            <td class="sum">¥0.00</td>
         </tr>
     </table>
 
     <h3>投资/收益</h3>
     <hr>
-    <table id="tab_bill_2" class="tab">
-
+    <table class="tab_account-detail-list">
+        <tr>
+            <th>日期</th>
+            <th>时间</th>
+            <th>类别</th>
+            <th>金额</th>
+            <th class="textLeftColumn">流水号</th>
+            <th class="textLeftColumn">详情</th>
+        </tr>
+        <tr>
+            <td>201/10/18</td>
+            <td>04:24:28</td>
+            <td>减持</td>
+            <td>- 333.33</td>
+            <td class="textLeftColumn">20171018055130666666</td>
+            <td class="textLeftColumn">A+B极致新锐混合</td>
+        </tr>
+        <tr>
+            <td>201/10/18</td>
+            <td>04:24:28</td>
+            <td>持有</td>
+            <td>+ 666.66</td>
+            <td class="textLeftColumn">20171018055130666666</td>
+            <td class="textLeftColumn">宝盈新锐混合</td>
+        </tr>
+    </table>
+    <table class="tab_btn_list">
+        <tr>
+            <td colspan="9">
+                <button class="btn">首页</button>
+                <button class="btn">上一下</button>
+                <span class="btn" style="background: #dddddd; color: orangered">1</span>
+                <button class="btn">下一页</button>
+                <button class="btn">尾页</button>
+            </td>
+        </tr>
     </table>
 </div>
 
