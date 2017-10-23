@@ -24,126 +24,88 @@
 </head>
 
 <body style="margin: 0;">
-<!-- 1. 顶部海报 -->
-<div style="background-color: #F8F8F8;width: 100%;height: 30px;margin-bottom: 35px;margin-top: 0px">
-    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 93px">客服热线 : 18408248053</span>
-    <img src="https://market.wukonglicai.com/pc/spread/images/phone.png"
-         style="float: right;margin-top: 4px;margin-right: 10px;">
-    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">免费注册</span>
-    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">登录</span>
-    <img src="http://www.gomemyc.com/global/img/icon1home.png"
-         style="font-size: 16px;float: left;margin-top: 7px;margin-left: 60px">
-    <span style="font-size: 12px;float: left;margin-top: 4px;margin-left: 3px;color: black">国美金融</span>
-    <div style="font-size: 12px;float: left;margin-top: 4px;margin-left: 5px">(市场有风险，投资需谨慎)</div>
-</div>
-<!-- 2. 首页导航 -->
-<div class="header">
-    <div class="header_resize">
-        <div class="logo">
-            <h1><a href="index.html"><img src="images/mycjj/logo.png" style="width: 231px;height: 78px;"></a>
-                <small style="color: red;background-color: white">让你的钱聪明起来</small>
-            </h1>
-        </div>
-        <div class="menu_nav">
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="investment.html">我要投资</a></li>
-                <li><a href="bailout.html">我要融资</a></li>
-                <li><a href="BeginnersGuide.html">新手指南</a></li>
-                <li><a href="Aboutus.html">关于我们</a></li>
-                <li class="active"><a href="members.html">我的账户</a></li>
-            </ul>
-        </div>
-        <div class="clr"></div>
-    </div>
-</div>
-<div id="div_bg_big">
-    <div id="div_bg_left_upper" class="div_bg">
-        <div class="div_portrait">
-        </div>
-        <div class="div_user_info">
-            <ul>
-                账&nbsp&nbsp&nbsp&nbsp户：
-                <li id="li_user_name">wjl1075207820</li>
-                <br>
-                手&nbsp&nbsp&nbsp&nbsp机：
-                <li id="li_phone">13366666666</li>
-                <br>
-                邮&nbsp&nbsp&nbsp&nbsp箱：
-                <li id="li_email">1234567890@qq.com</li>
-                <br>
-                身份证：
-                <li id="li_id_card">未认证</li>
-                <br>
-                银行卡：
-                <li id="li_bank_card">未绑定</li>
-            </ul>
-        </div>
+
+<!-- 刷新内容区域 -->
+<div id="div_article-bg-right" class="div_content">
+    <h3>站内消息</h3>
+    <div style="display: inline">已读 <span style="color: orangered">0</span> 封,</div>
+    <div style="display: inline"> 未读 <span style="color: orangered">0</span> 封,</div>
+    <div style="display: inline"> 共 <span style="color: orangered">0</span> 封站内消息</div>
+    <h5 style="display: inline;margin-left: 370px"><span style="color: orangered">>>更多</span></h5>
+    <hr>
+    <table id="tab_account-collect-list">
+        <tr>
+            <td class="item"></td>
+        </tr>
+        <tr>
+            <td class="sum">¥0.00</td>
+        </tr>
+        <tr>
+            <td class="item"></td>
+        </tr>
+        <tr>
+            <td class="sum">¥0.00</td>
+        </tr>
+    </table>
+
+    <!--
+    列: Column
+    行: Row
+    次序:first second third fourth fifth sixth
+     -->
+
+    <h3>资金明细</h3>
+    <hr>
+    <table class="tab_account-detail-list">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+
+    <div class="div_information">
 
     </div>
-    <div id="div_bg_left_lower" class="div_bg">
-        <div class="account-list" id="_left">
-            <a href="members.html" data-id="center"><i></i>个人中心</a>
-            <a href="user_investment.html" data-id="investment"><i></i>我的投资</a>
-            <a href="user_fund.html" data-id="fund"><i></i>我的资金</a>
-            <a href="user_bill.html" data-id="bill"><i></i>我的账单</a>
-            <a href="user_information.html" class="current" data-id="information"><i></i>站内消息</a>
-            <a href="user_setting.html" data-id="setting"><i></i>账户设置</a>
-        </div>
+    <div class="div_usable_detail_bg">
+        <table id="tab_information" class="tab">
+            <tr class="tr_investment">
+                <th>发件人</th>
+                <th>内容</th>
+                <th>时间</th>
+            </tr>
+            <tr class="tr_zebra">
+                <td>张三</td>
+                <td>
+                    蚂蚁金服开放平台,致力于为开发者<br>
+                    提供支付、理财、信用、口碑开店、<br>
+                    安全、营销、社交等各类能力及行<br>
+                    业解决方案,在这里可以找到开发者、<br>
+                    服务商、渠道商需要的各种能力..<br>
+                </td>
+                <td>2017-10-18</td>
+            </tr>
+            <tr class="tr_zebra">
+                <td>张三</td>
+                <td>
+                    蚂蚁金服开放平台,致力于为开发者<br>
+                    提供支付、理财、信用、口碑开店、<br>
+                    安全、营销、社交等各类能力及行<br>
+                    业解决方案,在这里可以找到开发者、<br>
+                    服务商、渠道商需要的各种能力..<br>
+                </td>
+                <td>2017-10-18</td>
+            </tr>
+
+        </table>
     </div>
-    <section id="content">
-        <div id="div_bg_right" class="div_bg">
-            <div id="div_tab_big_bg" class="div_property">
-
-                <div class="div_information">
-                    <h3>站内消息</h3>
-                    <div style="display: inline">已读 <span style="color: orangered">0</span> 封,</div>
-                    <div style="display: inline"> 未读 <span style="color: orangered">0</span> 封,</div>
-                    <div style="display: inline"> 共 <span style="color: orangered">0</span> 封站内消息</div>
-                    <h5 style="display: inline;margin-left: 370px"><span style="color: orangered">>>更多</span></h5>
-                    <hr>
-                </div>
-                <div class="div_usable_detail_bg">
-                    <table id="tab_information" class="tab">
-                        <tr class="tr_investment">
-                            <th>发件人</th>
-                            <th>内容</th>
-                            <th>时间</th>
-                        </tr>
-                        <tr class="tr_zebra">
-                            <td>张三</td>
-                            <td>
-                                蚂蚁金服开放平台,致力于为开发者<br>
-                                提供支付、理财、信用、口碑开店、<br>
-                                安全、营销、社交等各类能力及行<br>
-                                业解决方案,在这里可以找到开发者、<br>
-                                服务商、渠道商需要的各种能力..<br>
-                            </td>
-                            <td>2017-10-18</td>
-                        </tr>
-                        <tr class="tr_zebra">
-                            <td>张三</td>
-                            <td>
-                                蚂蚁金服开放平台,致力于为开发者<br>
-                                提供支付、理财、信用、口碑开店、<br>
-                                安全、营销、社交等各类能力及行<br>
-                                业解决方案,在这里可以找到开发者、<br>
-                                服务商、渠道商需要的各种能力..<br>
-                            </td>
-                            <td>2017-10-18</td>
-                        </tr>
-
-                    </table>
-                </div>
-                <div id="content_tail">
-                    <button class="btn_content">全选</button>
-                    <button class="btn_content">删除</button>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
+    <div id="content_tail">
+        <button class="btn_content">全选</button>
+        <button class="btn_content">删除</button>
+    </div>
 
 </div>
 
