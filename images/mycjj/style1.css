@@ -111,3 +111,10 @@ ol li .send { margin:16px 0 0 0;}
 .imglist li p{text-align:center; line-height:10px; background:url(../images/line1.png) center center no-repeat;}
 .imglist li p a{color:#1f7cb6;}
 .imglist li p a:hover{color:#F60;}
+
+/* details */
+.center { width: 900px;	margin: 80px auto 30px;background-color: #f4f4f4;}
+.center h2 {margin-left: 50px;font-size: 25px;color: #666;}
+.center p {margin-left: 100px;font-size: 10px;}
+.center div,.center div img {width: 168px;margin: 50px auto 0;}
+.center button { width: 165px; margin: -30px 0 20px; padding: 10px; font-size: 1.25rem; color: #fff; border: 1px solid #007bff; border-radius: 5px; background-color: #007bff; }
