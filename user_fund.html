@@ -2,152 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>理财精灵-我的账户</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>理财精灵——我的账户</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style.css"/>
     <link type="text/css" rel="stylesheet" href="css/members.css">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet"/>
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style1.css">
 </head>
-<body>
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">理财精灵</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02"
-            aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExample02">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">登录 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">注册</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
-        </form>
-    </div>
-</nav>
-<nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav text-md-center nav-justified w-100">
-            <li class="nav-item active">
-                <a style="font-weight: bold;" class="nav-link" href="javascript:void(0)">首页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="investment.html">我要投资</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="bailout.html">我要融资</a>
-            </li>
-            <li class="nav-item">
-                <a style="color: red; font-weight: bold;" class="nav-link" href="members.html">我的信息</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="BeginnersGuide.html">新手指南</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="Aboutus.html" aria-expanded="false">关于我们</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<body style="margin: 0;">
 
-<div id="div_bg_big">
-    <div id="div_bg_left_upper" class="div_bg">
-        <div class="div_portrait">
-        </div>
-        <div class="div_user_info">
-            <ul>
-                账&nbsp&nbsp&nbsp&nbsp户：
-                <li id="li_user_name">wjl1075207820</li>
-                <br>
-                手&nbsp&nbsp&nbsp&nbsp机：
-                <li id="li_phone">13366666666</li>
-                <br>
-                邮&nbsp&nbsp&nbsp&nbsp箱：
-                <li id="li_email">1234567890@qq.com</li>
-                <br>
-                身份证：
-                <li id="li_id_card">未认证</li>
-                <br>
-                银行卡：
-                <li id="li_bank_card">未绑定</li>
-            </ul>
-        </div>
+<!-- 刷新内容区域 -->
+<div id="div_article-bg-right" class="div_content">
+    <h3>投资总计</h3>
+    <hr>
+    <table class="tab_account-collect-list">
+        <tr>
+            <td class="item">总融资金额</td>
+            <td class="item">月融资金额</td>
+            <td class="item">待还资金</td>
+            <td class="item">本月到期</td>
+            <td class="item">融资笔数</td>
 
-    </div>
-    <div id="div_bg_left_lower" class="div_bg">
-        <div class="account-list" id="_left">
-            <a href="members.html" data-id="center"><i></i>个人中心</a>
-            <a href="user_investment.html" data-id="investment"><i></i>我的投资</a>
-            <a href="user_fund.html" class="current" data-id="fund"><i></i>我的资金</a>
-            <a href="user_bill.html" data-id="bill"><i></i>我的账单</a>
-            <a href="user_information.html" data-id="information"><i></i>站内消息</a>
-            <a href="user_setting.html" data-id="setting"><i></i>账户设置</a>
-        </div>
-    </div>
-    <section id="content">
-        <div id="div_bg_right" class="div_bg">
-            <div id="div_tab_big_bg" class="div_property">
-                <div class="div_property">
-                    <h3>投资总计</h3>
-                    <hr>
-                </div>
-                <div class="div_usable_detail_bg">
-                    <table id="tab_fund" class="tab">
-                        <tr>
-                            <td>总投资金额</td>
-                            <td>总收益金额</td>
-                            <td>待收本金</td>
-                            <td>代收利息</td>
-                            <td>冻结金额</td>
-                        </tr>
-                        <tr>
-                            <td>¥0.00</td>
-                            <td>¥0.00</td>
-                            <td>¥0.00</td>
-                            <td>¥0.00</td>
-                            <td>¥0.00</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="div_detail">
-                    <h3 style="display: inline">操作记录</h3>
-                    <h5 style="display: inline;margin-left: 500px"><span style="color: orangered">>>更多</span></h5>
-                    <hr>
-                </div>
-                <div class="div_usable_detail_bg">
-                    <table class="tab">
-                        <tr class="tr_investment">
-                            <th>操作时间</th>
-                            <th>类别</th>
-                            <th>金额</th>
-                            <th>详情</th>
-                            <th>回执单</th>
-                        </tr>
-                        <tr class="tr_zebra">
-                            <td>2017-10-18</td>
-                            <td>充值</td>
-                            <td>¥9999.88</td>
-                            <td>购买A+B混合基金</td>
-                            <td>20171018055130666666</td>
-                        </tr>
+        </tr>
+        <tr>
+            <td class="sum">¥0.00</td>
+            <td class="sum">¥0.00</td>
+            <td class="sum">¥0.00</td>
+            <td class="sum">¥0.00</td>
+            <td class="sum">0</td>
+        </tr>
+    </table>
 
-
-                    </table>
-                </div>
-
-            </div>
-            </div>
-    </section>
-
+    <!--
+    列: Column
+    行: Row
+    次序:first second third fourth fifth sixth
+     -->
+    <h3>操作记录</h3>
+    <hr>
+    <table class="tab_account-detail-list">
+        <tr>
+            <th>操作时间</th>
+            <th>来自</th>
+            <th>金额</th>
+            <th class="textLeftColumn">详情</th>
+            <th class="textLeftColumn">回执单</th>
+        </tr>
+        <tr>
+            <td>2017-10-18</td>
+            <td>张三</td>
+            <td>¥9999.88</td>
+            <td class="textLeftColumn">泛娱乐X计划项目</td>
+            <td class="textLeftColumn">20171018055130666666</td>
+        </tr>
+    </table>
+    <table class="tab_btn_list">
+        <tr>
+            <td colspan="9">
+                <button class="btn">首页</button>
+                <button class="btn">上一下</button>
+                <span class="btn" style="background: #dddddd; color: orangered">1</span>
+                <button class="btn">下一页</button>
+                <button class="btn">尾页</button>
+            </td>
+        </tr>
+    </table>
 </div>
-
 
 <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
 <script src="https://code.jquery.com/jquery.js"></script>
@@ -162,7 +95,7 @@
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
         integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/members.js"></script>
 </body>
 </html>

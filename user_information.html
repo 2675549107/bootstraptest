@@ -2,151 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>理财精灵-我的账户</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>理财精灵——我的账户</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style.css"/>
     <link type="text/css" rel="stylesheet" href="css/members.css">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet"/>
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style1.css">
 </head>
-<body>
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">理财精灵</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02"
-            aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExample02">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">登录 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">注册</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
-        </form>
+
+<body style="margin: 0;">
+
+<!-- 刷新内容区域 -->
+<div id="div_article-bg-right" class="div_content">
+    <h3>站内消息</h3>
+    <div style="display: inline; margin-left: 50px;font-size: 16px">已读 <span style="color: orangered">0</span> 封, 未读 <span
+            style="color: orangered">0</span> 封, 共 <span style="color: orangered">0</span> 封站内消息
     </div>
-</nav>
-
-<nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav text-md-center nav-justified w-100">
-            <li class="nav-item active">
-                <a style="font-weight: bold;" class="nav-link" href="javascript:void(0)">首页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="investment.html">我要投资</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="bailout.html">我要融资</a>
-            </li>
-            <li class="nav-item">
-                <a style="color: red; font-weight: bold;" class="nav-link" href="members.html">我的信息</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="BeginnersGuide.html">新手指南</a>
-            </li>
-            <li class="nav-item">
-                <a style="font-weight: bold;" class="nav-link" href="Aboutus.html" aria-expanded="false">关于我们</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<div id="div_bg_big">
-    <div id="div_bg_left_upper" class="div_bg">
-        <div class="div_portrait">
-        </div>
-        <div class="div_user_info">
-            <ul>
-                账&nbsp&nbsp&nbsp&nbsp户：
-                <li id="li_user_name">wjl1075207820</li>
-                <br>
-                手&nbsp&nbsp&nbsp&nbsp机：
-                <li id="li_phone">13366666666</li>
-                <br>
-                邮&nbsp&nbsp&nbsp&nbsp箱：
-                <li id="li_email">1234567890@qq.com</li>
-                <br>
-                身份证：
-                <li id="li_id_card">未认证</li>
-                <br>
-                银行卡：
-                <li id="li_bank_card">未绑定</li>
-            </ul>
-        </div>
-
-    </div>
-    <div id="div_bg_left_lower" class="div_bg">
-        <div class="account-list" id="_left">
-            <a href="members.html" data-id="center"><i></i>个人中心</a>
-            <a href="user_investment.html" data-id="investment"><i></i>我的投资</a>
-            <a href="user_fund.html" data-id="fund"><i></i>我的资金</a>
-            <a href="user_bill.html" data-id="bill"><i></i>我的账单</a>
-            <a href="user_information.html" class="current" data-id="information"><i></i>站内消息</a>
-            <a href="user_setting.html" data-id="setting"><i></i>账户设置</a>
-        </div>
-    </div>
-    <section id="content">
-        <div id="div_bg_right" class="div_bg">
-            <div id="div_tab_big_bg" class="div_property">
-
-                <div class="div_information">
-                    <h3>站内消息</h3>
-                    <div style="display: inline">已读 <span style="color: orangered">0</span> 封,</div>
-                    <div style="display: inline"> 未读 <span style="color: orangered">0</span> 封,</div>
-                    <div style="display: inline"> 共 <span style="color: orangered">0</span> 封站内消息</div>
-                    <h5 style="display: inline;margin-left: 370px"><span style="color: orangered">>>更多</span></h5>
-                    <hr>
-                </div>
-                <div class="div_usable_detail_bg">
-                    <table id="tab_information" class="tab">
-                        <tr class="tr_investment">
-                            <th>发件人</th>
-                            <th>内容</th>
-                            <th>时间</th>
-                        </tr>
-                        <tr class="tr_zebra">
-                            <td>张三</td>
-                            <td>
-                                蚂蚁金服开放平台,致力于为开发者<br>
-                                提供支付、理财、信用、口碑开店、<br>
-                                安全、营销、社交等各类能力及行<br>
-                                业解决方案,在这里可以找到开发者、<br>
-                                服务商、渠道商需要的各种能力..<br>
-                            </td>
-                            <td>2017-10-18</td>
-                        </tr>
-                        <tr class="tr_zebra">
-                            <td>张三</td>
-                            <td>
-                                蚂蚁金服开放平台,致力于为开发者<br>
-                                提供支付、理财、信用、口碑开店、<br>
-                                安全、营销、社交等各类能力及行<br>
-                                业解决方案,在这里可以找到开发者、<br>
-                                服务商、渠道商需要的各种能力..<br>
-                            </td>
-                            <td>2017-10-18</td>
-                        </tr>
-
-                    </table>
-                </div>
-                <div id="content_tail">
-                    <button class="btn_content">全选</button>
-                    <button class="btn_content">删除</button>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
+    <hr>
+    <table class="tab_account-detail-list">
+        <tr>
+            <th>发件人</th>
+            <th>内容</th>
+            <th>时间</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td class="thirdColumn">
+                蚂蚁金服开放平台,致力于为开发者
+                提供支付、理财、信用、口碑开店、
+                安全、营销、社交等各类能力及行
+                业解决方案,在这里可以找到开发者、
+                服务商、渠道商需要的各种能力..
+            </td>
+            <td>2017-10-18</td>
+        </tr>
+        <tr class="tr_zebra">
+            <td>张三</td>
+            <td class="thirdColumn">
+                蚂蚁金服开放平台,致力于为开发者
+                提供支付、理财、信用、口碑开店、
+                安全、营销、社交等各类能力及行
+                业解决方案,在这里可以找到开发者、
+                服务商、渠道商需要的各种能力..
+            </td>
+            <td>2017-10-18</td>
+        </tr>
+    </table>
+    <hr>
+    <table class="tab_btn_list">
+        <tr>
+            <td colspan="9">
+                <button class="btn">首页</button>
+                <button class="btn">上一下</button>
+                <span class="btn" style="background: #dddddd; color: orangered">1</span>
+                <button class="btn">下一页</button>
+                <button class="btn">尾页</button>
+            </td>
+        </tr>
+    </table>
 </div>
 
 
@@ -163,7 +89,7 @@
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
         integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/members.js"></script>
 </body>
 </html>
