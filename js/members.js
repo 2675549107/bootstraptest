@@ -11,9 +11,8 @@ $(function () {
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
     $("footer").css({
-        "top" : height + "px",
-        "width" : width + "px",
-        "z-index" : 1
+        "top" : height + 300 +  "px",
+        "width" : width + "px"
     });
 });
 
@@ -25,8 +24,7 @@ $(window).resize(function () {
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
     $(".img_footer").css({
-        "top" : height + "px",
-        "left" : 0,
+        "top" : height + 300 +  "px",
         "width" : width + "px"
     });
 });
