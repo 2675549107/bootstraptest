@@ -1,10 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>理财精灵——我的账户</title>
+    <link rel="icon" href="images/title/smallLogo.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/members.css">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet"/>
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="images/mycjj/style1.css">
 </head>
-<body>
-
+<body style="margin: 0;">
+<!-- 1. 顶部海报 -->
+<div style="background-color: #F8F8F8;width: 100%;height: 30px;margin-bottom: 35px;margin-top: 0px">
+    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 93px">客服热线 : 18408248053</span>
+    <img src="https://market.wukonglicai.com/pc/spread/images/phone.png"
+         style="float: right;margin-top: 4px;margin-right: 10px;">
+    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">免费注册</span>
+    <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">登录</span>
+    <img src="http://www.gomemyc.com/global/img/icon1home.png"
+         style="font-size: 16px;float: left;margin-top: 7px;margin-left: 60px">
+    <span style="font-size: 12px;float: left;margin-top: 4px;margin-left: 3px;color: black">国美金融</span>
+    <div style="font-size: 12px;float: left;margin-top: 4px;margin-left: 5px">(市场有风险，投资需谨慎)</div>
+</div>
+<!-- 2. 首页导航 -->
+<div class="header">
+    <div class="header_resize">
+        <div class="logo">
+            <h1><a href="index.html"><img src="images/mycjj/logo.png" style="width: 231px;height: 78px;"></a>
+                <small style="color: red;background-color: white">让你的钱聪明起来</small>
+            </h1>
+        </div>
+        <div class="menu_nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="investment.html">我要投资</a></li>
+                <li><a href="bailout.html">我要融资</a></li>
+                <li><a href="BeginnersGuide.html">新手指南</a></li>
+                <li><a href="Aboutus.html">关于我们</a></li>
+                <li class="active"><a href="members.html">我的账户</a></li>
+            </ul>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!-- 我的账户内容区域 -->
+<article>
+    <!-- 左上 -->
+    <div id="div_article-bg-left-upper" class="div_article-bg">
+        <img class="img_portrait" src="images/members/portrait1.jpg" alt="头像">
+        <table class="tab_user_info">
+            <tr>
+                <td class="firstRow">账&nbsp&nbsp&nbsp&nbsp户:</td>
+                <td>wjl1075207820</td>
+            </tr>
+            <tr>
+                <td class="firstRow">邮&nbsp&nbsp&nbsp&nbsp箱:</td>
+                <td>1000000000@qq.com</td>
+            </tr>
+            <tr>
+                <td class="firstRow">手机号:</td>
+                <td>13366666666</td>
+            </tr>
+        </table>
+    </div>
+    <!-- 右 -->
+    <div id="div_article-bg-right">
+    </div>
+    <!-- 左下 -->
+    <div id="div_article-bg-left-under" class="div_article-bg">
+        <ul class="account-list">
+            <li class="current" data-id="center">个人中心</li>
+            <li data-id="investment">我的投资</li>
+            <li data-id="fund">我的融资</li>
+            <li data-id="bill">我的账单</li>
+            <!--<li data-id="information">站内消息</li>-->
+            <li data-id="setting">账户设置</li>
+        </ul>
+    </div>
+</article>
+<!-- 页脚 -->
+<footer>
+    <img class="img_footer" src="images/mycjj/footer.jpg">
+</footer>
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/members.js"></script>
 </body>
 </html>

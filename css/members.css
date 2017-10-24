@@ -1,73 +1,87 @@
-body {  color: #ff5d73;background: #d0d0d0;}
-
-#div_bg_big {margin: 0 auto;padding: 0;width: 1200px;height: 1000px;}
-
-.div_bg {
-    margin: 0;
+* {
+    margin: 0 auto;
     padding: 0;
-    background: #f8f9fa;
-    border: gainsboro solid 1px;
+    line-height: 25px;
+    color: #333;
 }
 
-#div_bg_left_upper {
-    width: 350px;
-    height: 400px;
+
+article {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    border: #e0e0e0 solid 1px;
 }
 
-#content {
-    margin-top: -750px;
-    margin-left: 350px;
-}
-
-#content,
-#div_bg_right {
+footer {
     position: absolute;
-    width: 850px;
-    height: 750px;
+    top: 735px;
 }
 
-#div_bg_left_lower {
-    width: 350px;
-    height: 350px;
+.img_footer {
+    width: 100%;
+    height: 100%;
 }
 
-.div_portrait {
-    width: 100px;
-    height: 100px;
-    margin-left: 125px;
-    margin-top: 75px;
+#div_article-bg-left-upper,
+#div_article-bg-left-under,
+#div_article-bg-right {
+    background: #f8f9fa;
+    z-index: 999;
+}
+
+#div_article-bg-left-upper {
+    float: left;
+    width: 300px;
+    height: 200px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#div_article-bg-left-under {
+    float: left;
+    width: 300px;
+}
+
+#div_article-bg-right {
+    float: right;
+    width: 898px;
+    border-left: #e0e0e0 solid 1px;
+}
+
+
+.img_portrait {
+    width: 80px;
+    height: 80px;
+    margin-top: 45px;
     border-radius: 50px;
-    border: solid #d0d0d0 1px;
-    background: url("../images/members/portrait1.jpg");
 }
 
-.div_user_info > ul > li {
-    line-height: 30px;
+.tab_user_info {
     display: inline;
+    margin-left: 10px;
 }
 
-.div_user_info {
-    margin-top: 30px;
-    margin-left: 25px;
+.tab_user_info td {
+    color: #ff5d73;
 }
 
-.account-list {
+.tab_user_info td.firstRow {
+    color: #333;
+}
+
+.div_article-bg {
     text-align: center;
     border-top: 1px solid #e0e0e0;
 }
 
-.account-list a.current {
-    background: #e8e8e8;
-    border-left: 5px solid #ff5d73;
+.div_article-bg li {
+    list-style-type: none;
 }
 
-.account-list a:hover {
-    background: #e8e8e8;
-    border-left: 5px solid #ff5d73;
-}
-
-.account-list a {
-    height: 58px;
+.div_article-bg li {
+    height: 60px;
     line-height: 58px;
     font-size: 16px;
     display: block;
@@ -75,63 +89,119 @@ body {  color: #ff5d73;background: #d0d0d0;}
     color: #333;
 }
 
-#div_tab_big_bg {
-    position: absolute;
-    top: 65px;
-    left: 80px;
-    color: grey;
-}
-
-.div_property hr {
-    width: 690px;
-}
-
-.tab{
-    width: 690px;
-    line-height: 55px;
-    text-align: center;
-}
-
-
-
-.tr_zebra:nth-child(even){
-    line-height: 35px;
-    background-color: #e8e8e8;
-}
-
-.tr_zebra:nth-child(odd){
-    line-height: 35px;
-}
-.div_detail {
-    margin-top: 34px;
-}
-
-#tab_investment,
-#tab_property,
-#tab_fund,
-#tab_bill_1,
-#tab_bill_2{
+.div_article-bg li.current {
     background: #e8e8e8;
+    border-left: 5px solid #ff5d73;
 }
-.tab th{
-    text-align: center;
-    line-height: 35px;
-    background: #ff5e74;
-    color: white;
+
+.div_article-bg li:hover {
+    background: #e8e8e8;
+    border-left: 5px solid #ff5d73;
 }
-#tab_setting {
+
+#div_article-bg-right h3 {
+    margin-left: 50px;
     text-align: left;
 }
 
-#content_tail {
-    margin-bottom: 0;
+.tab_account-collect-list {
+    margin: 0 50px;
+    width: 800px;
+    height: 105px;
+    background: #e8e8e8;
 }
-.btn_content {
-    margin-top: 30px;
-    margin-right: 30px;
-    width: 100px;
-    height: 40px;
+
+.tab_account-collect-list td {
+    text-align: center;
+}
+
+.tab_account-collect-list td.item {
+    font-size: 20px;
+}
+
+.tab_account-collect-list td.sum {
+    font-size: 18px;
+    color: #ff5d73;
+}
+
+.tab_account-collect-list td.balance {
+    color: #ff5d73;
+}
+
+.tab_account-collect-list button {
+    width: 60px;
+    outline: none;
+    border: 1px solid #ff5d73;
+    border-radius: 30px;
+    background: #e8e8e8;
+}
+
+.tab_account-collect-list button:hover {
+    background: #ff5d73;
+}
+
+.tab_account-detail-list {
+    width: 800px;
+    background: #f8f9fa;
+}
+
+.tab_account-detail-list {
+    margin: 0 50px;
+}
+
+.tab_account-detail-list th {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
     background: #ff5e74;
-    border: 0;
-    color: white;
+    font-weight: 400;
 }
+
+.tab_account-detail-list td {
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.tab_account-detail-list tr.textLeftColumn td,
+.tab_account-detail-list th.textLeftColumn,
+.tab_account-detail-list td.textLeftColumn,
+.tab_account-detail-list th.textLeftColumn,
+.tab_account-detail-list td.textLeftColumn {
+    text-align: left;
+}
+
+.tab_account-detail-list tr:nth-child(even) {
+    background: #e8e8e8;
+}
+
+.tab_account-detail-list button.btn {
+    width: 80px;
+    margin-right: 0;
+}
+.tab_btn_list button {
+    width: 80px;
+}
+.tab_btn_list button,
+.tab_btn_list span {
+    margin-top: 10px;
+}
+
+.tab_btn_list button:hover {
+    background: #ff5e74;
+}
+.tab_account-detail-list td.thirdColumn {
+    width: 400px;
+    text-indent: 32px;
+    text-align: left;
+}
+
+.tab_account-detail-list img {
+    width: 16px;
+    height: 16px;
+}
+
+.tab_account-detail-list td.change:hover {
+    background: #ff5e74;
+}
+
