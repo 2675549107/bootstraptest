@@ -10,12 +10,8 @@ $(function () {
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
     $("footer").css({
-<<<<<<< HEAD
-        "top" : height + 300 +  "px",
-=======
-        "top" : height + 300 + "px",
->>>>>>> branch
-        "width" : width + "px"
+        "top": height + 300 + "px",
+        "width": width + "px"
     });
 });
 // 窗口缩放时,布局自适应窗口高度
@@ -26,12 +22,8 @@ $(window).resize(function () {
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
     $(".img_footer").css({
-<<<<<<< HEAD
-        "top" : height + 300 +  "px",
-=======
-        "top" : height + 300 + "px",
->>>>>>> branch
-        "width" : width + "px"
+        "top": height + 300 + "px",
+        "width": width + "px"
     });
 });
 // 页面局部刷新
@@ -78,6 +70,7 @@ $(function () {
         $(".account-list li").eq(i).addClass("current").siblings().removeClass("current");
         return 0;
     }
+
     var sId = window.location.hash;
     loadInner(sId);
 });
