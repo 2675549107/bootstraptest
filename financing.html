@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
+    <title>我要融资</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="images/mycjj/style.css" />
@@ -27,8 +27,8 @@
     <div style="background-color: #F8F8F8;width: 100%;height: 30px;margin-bottom: 35px;margin-top: 0px">
         <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 93px">客服热线 : 18408248053</span>
         <img src="https://market.wukonglicai.com/pc/spread/images/phone.png" style="float: right;margin-top: 4px;margin-right: 10px;">
-        <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">免费注册</span>
-        <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px">登录</span>
+        <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px"><a href="register.html">免费注册</a></span>
+        <span style="font-size: 12px;float: right;margin-top: 4px;margin-right: 10px"><a href="login.html">登录</a></span>
         <img src="http://www.gomemyc.com/global/img/icon1home.png" style="font-size: 16px;float: left;margin-top: 7px;margin-left: 60px">
         <span style="font-size: 12px;float: left;margin-top: 4px;margin-left: 3px;color: black">国美金融</span>
         <div style="font-size: 12px;float: left;margin-top: 4px;margin-left: 5px">(市场有风险，投资需谨慎)</div>
@@ -52,15 +52,48 @@
         </div>
     </div>
     </nav>
-    
-        <div>
+    <form>
+        <div class="equity">
+            <h2>选择头像</h2>
+            <div><img src="admin/zwtp_2_gi/images/img17.png" id="show" class="portrait" /></div>
+            <div><input type="file" id="file" onchange="c()"></div>
+            <h2>产品名称</h2>
+            <input type="text" class="product">
+            <h2>产品介绍</h2>
+            <textarea class="product"></textarea>
+            <h2>融资价格</h2>
+            <input type="text" class="product">
+            <h2>融资数量</h2>
+            <input type="text" class="product">
+            <h2>产品组名</h2>
+            <select class="product" required="">
+                <option value="">请选择</option>
+                <option value="">一组</option>
+                <option value="">二组</option>
+                <option value="">三组</option>
+                <option value="">四组</option>
+            </select>
+            <div><button type="submit">提交</button></div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    function c() {
+        var r = new FileReader();
+        f = document.getElementById('file').files[0];
+        r.readAsDataURL(f);
+        r.onload = function(e) {
+            document.getElementById('show').src = this.result;
+        };
+    }
+    </script>
+    <!-- <div>
             <img src="images/mycjj/load1.png" width="100%">
         </div>
         <div class="equity">
             <div class="product">
                 <h2>产品列表</h2>
             </div>
-            <!-- 信用贷款 -->
+            信用贷款
             <div class="tower">
                 <h2>信用贷款</h2>
                 <div class="tower-d">
@@ -68,9 +101,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img01.png" /></span>
                             <h2>平易贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -79,9 +112,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img02.png" /></span>
                             <h2>装修贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +137,7 @@
                     </ul>
                 </div>
             </div>
-            <!-- 房地产贷款 -->
+            房地产贷款
             <div class="residence">
                 <h2>房地产贷款</h2>
                 <div class="residence-d">
@@ -112,9 +145,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img03.png" /></span>
                             <h2>宅急贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -123,9 +156,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img04.png" /></span>
                             <h2>赎楼贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -134,9 +167,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img05.png" /></span>
                             <h2>企易贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -145,9 +178,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img06.png" /></span>
                             <h2>房抵贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -156,9 +189,9 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img07.png" /></span>
                             <h2>商抵贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
@@ -167,15 +200,14 @@
                         <li>
                             <span><img src="admin/zwtp_2_gi/images/img08.png" /></span>
                             <h2>住抵贷</h2>
-                            <h3>产品利率：0.04%/月</h3>
-                            <h3>放款额度：0-20万</h3>
-                            <p><h3>贷款期限</h3><a href="#">详情</a></p>
+                            <h3>产品利率：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0.04%/月"></h3>
+                            <h3>放款额度：<input type="text" disabled="disabled" style="width: 60px;border-style: none;background-color: #fff" value="0-20万"></h3>
+                            <p><h3>贷款期限：<input type="text" disabled="disabled" style="width: 50px;border-style: none;background-color: #fff" value="1-12个月"></h3><a href="#">详情</a></p>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    
+        </div> -->
     <!--5. 页脚 -->
     <img src="images/mycjj/footer.jpg" style="width: 100%;/*position: absolute*/;top: 2496px;">
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
