@@ -10,6 +10,11 @@ $(function () {
     $("article").css("height", height - 125 + "px");
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
+    $("footer").css({
+        "top" : height + "px",
+        "width" : width + "px",
+        "z-index" : 1
+    });
 });
 
 // 窗口缩放时,布局自适应窗口高度
@@ -19,6 +24,11 @@ $(window).resize(function () {
     $("article").css("height", height - 125 + "px");
     $("#div_article-bg-right").css("height", height - 125 + "px");
     $("#div_article-bg-left-under").css("height", height - 325 + "px");
+    $(".img_footer").css({
+        "top" : height + "px",
+        "left" : 0,
+        "width" : width + "px"
+    });
 });
 
 $(function () {
